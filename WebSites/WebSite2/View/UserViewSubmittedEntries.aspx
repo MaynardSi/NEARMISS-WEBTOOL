@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/UserDashboard.master" AutoEventWireup="true" CodeFile="UserViewSubmittedEntries.aspx.cs" Inherits="View_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="UserDashboard.master" AutoEventWireup="true" CodeFile="UserViewSubmittedEntries.aspx.cs" Inherits="View_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="UserLogin.aspx.cs" Inherits="View_Default3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AdminLogin.aspx.cs" Inherits="View_Default3" %>
 
 <!DOCTYPE html>
 
@@ -33,7 +33,7 @@
                 <img src="Res/Nearmisslogo.png" style="max-height: 100%; max-width: 100%;" alt="logo"/>
             </div>
             <div class="login-box-body">
-                <form role="form" action="UserSubmitNewEntry.aspx">
+                <form role="form">
                     <p class="login-box-msg">Sign in to start your session</p>
                     <div class="form-group ">
                         <div class="input-group">
@@ -59,7 +59,7 @@
 illness, or damage but had the potential to do so.">What is a Near Miss?</a>
             <br/>
             <br/>
-            <a href="ApproverLogin.aspx">Approver</a> | <a href="AdminLogin.aspx">Administrator</a>
+            <a href="ApproverLogin.aspx">Approver</a> | <a href="UserLogin.aspx">User</a>
         </div>
     </div>
 </body>
