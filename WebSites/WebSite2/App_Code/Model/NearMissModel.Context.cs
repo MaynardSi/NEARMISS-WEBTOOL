@@ -7,30 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Model
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+
+public partial class NearMissEntities : DbContext
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class NearMissEntities : DbContext
+    public NearMissEntities()
+        : base("name=NearMissEntities")
     {
-        public NearMissEntities()
-            : base("name=NearMissEntities")
-        {
-        }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
-    
-        public virtual DbSet<BusinessUnit> BusinessUnits { get; set; }
-        public virtual DbSet<Location> Locations { get; set; }
-        public virtual DbSet<NearMissEntry> NearMissEntries { get; set; }
-        public virtual DbSet<NearMissType> NearMissTypes { get; set; }
-        public virtual DbSet<Resolution> Resolutions { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
-        public virtual DbSet<User> Users { get; set; }
     }
+
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    {
+        throw new UnintentionalCodeFirstException();
+    }
+
+    public virtual DbSet<BusinessUnit> BusinessUnits { get; set; }
+    public virtual DbSet<Location> Locations { get; set; }
+    public virtual DbSet<NearMissEntry> NearMissEntries { get; set; }
+    public virtual DbSet<NearMissType> NearMissTypes { get; set; }
+    public virtual DbSet<Resolution> Resolutions { get; set; }
+    public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+    public virtual DbSet<User> Users { get; set; }
 }
