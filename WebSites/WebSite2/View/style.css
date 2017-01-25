@@ -102,3 +102,78 @@ h2 {
     height:100%;
     margin: 0px auto;
 }
+/*Login*/
+.login-main {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    padding-top: 60px;
+}
+
+.login-box {
+    width: 360px;
+    margin: 7% auto;
+}
+
+.login-box-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.login-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 12px;
+}
+
+.login-button {
+    margin-top: 24px;
+    padding: 18px;
+}
+
+.login-logo, .register-logo {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.usertype {
+    float: right;
+    font-size: 14px;
+    margin: 12px;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+#page-wrap {
+    position: relative;
+    width: 440px;
+    margin: 7% auto;
+    padding: 20px;
+    background: white;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
